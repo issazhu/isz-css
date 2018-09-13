@@ -1,0 +1,42 @@
+@mixin media-breakpoint-down($sizes) {
+  @each $size, $px in $sizes {
+    @media (min-width: $px) {
+      &.grid-#{$size} {
+        width: $px;
+      }
+    }
+  }
+}
+@mixin media-breakpoint($sizes) {
+  @each $size, $px in $sizes {
+    @media screen and (min-width: $px) {
+      width: $px;
+    }
+  }
+}
+@mixin make-col() {
+  @for $i from 1 through $grid-columns {
+    .col-#{$i} {
+      width: ($i/$grid-columns)*100%;
+      position: relative;
+      min-height: 1px;
+      float: left;
+      box-sizing: border-box;
+    }
+  }
+}
+@mixin media-col($sizes) {
+  @each $size, $px in $sizes {
+    @media screen and (min-width: $px) {
+      @for $i from 1 through $grid-columns {
+        .col-#{$size}-#{$i} {
+          width: ($i/$grid-columns)*100%;
+          position: relative;
+          min-height: 1px;
+          float: left;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+}

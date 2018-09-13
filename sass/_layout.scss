@@ -1,0 +1,12 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  @include media-breakpoint-down($grid-breakpoints);
+}
+.row {
+}
+@include make-col();
+.media {
+  @include media-breakpoint($grid-breakpoints);
+}
+@include media-col($grid-breakpoints);

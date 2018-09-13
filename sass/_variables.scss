@@ -1,0 +1,25 @@
+//color style folow bootstrap
+$colors: (
+  primary: #007bff,
+  secondary: #6c757d,
+  success: #28a745,
+  danger: #dc3545,
+  warning: #ffc107,
+  info: #17a2b8,
+  light: #f8f9fa,
+  dark: #343a40,
+  whites: #fff
+);
+
+$grid-breakpoints: (xs: 320px, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$grid-columns: 12;
+
+$line-height-base: 1.42858; //20 / 14
+$font-size-base: 14px;
+$text-color: rgb(10, 9, 9);
+$btn-border-width: 2px;
+$btn-border-radius: 4px;
+$btn-font-size: $font-size-base;
+$btn-line-height: $line-height-base;
+$btn-text-color-base: map-get($colors, whites);
+$btn-bg-color-base: map-get($colors, dark);

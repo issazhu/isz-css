@@ -1,0 +1,30 @@
+@mixin bg-color($colors) {
+  @each $c-name, $color in $colors {
+    .bg-#{$c-name} {
+      background-color: $color;
+    }
+    .bg-#{$c-name}-dark {
+      background-color: darken($color, 15%);
+    }
+    .bg-#{$c-name}-light {
+      background-color: lighten($color, 15%);
+    }
+  }
+}
+@mixin text-color($colors) {
+  @each $c-name, $color in $colors {
+    .text-#{$c-name} {
+      color: $color;
+    }
+    .text-#{$c-name}-dark {
+      color: darken($color, 15%);
+    }
+    .text-#{$c-name}-light {
+      color: lighten($color, 15%);
+    }
+  }
+}
+
+@include bg-color($colors);
+@include text-color($colors);
+
