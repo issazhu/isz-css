@@ -477,39 +477,104 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   box-sizing: border-box;
 }
 
+/* line 30, ../sass/mixins/_grid.scss */
+.col-offset-1 {
+  margin-left: 8.33333%;
+}
+
+/* line 30, ../sass/mixins/_grid.scss */
+.col-offset-2 {
+  margin-left: 16.66667%;
+}
+
+/* line 30, ../sass/mixins/_grid.scss */
+.col-offset-3 {
+  margin-left: 25%;
+}
+
+/* line 30, ../sass/mixins/_grid.scss */
+.col-offset-4 {
+  margin-left: 33.33333%;
+}
+
+/* line 30, ../sass/mixins/_grid.scss */
+.col-offset-5 {
+  margin-left: 41.66667%;
+}
+
+/* line 30, ../sass/mixins/_grid.scss */
+.col-offset-6 {
+  margin-left: 50%;
+}
+
+/* line 30, ../sass/mixins/_grid.scss */
+.col-offset-7 {
+  margin-left: 58.33333%;
+}
+
+/* line 30, ../sass/mixins/_grid.scss */
+.col-offset-8 {
+  margin-left: 66.66667%;
+}
+
+/* line 30, ../sass/mixins/_grid.scss */
+.col-offset-9 {
+  margin-left: 75%;
+}
+
+/* line 30, ../sass/mixins/_grid.scss */
+.col-offset-10 {
+  margin-left: 83.33333%;
+}
+
+/* line 30, ../sass/mixins/_grid.scss */
+.col-offset-11 {
+  margin-left: 91.66667%;
+}
+
+/* line 30, ../sass/mixins/_grid.scss */
+.col-offset-12 {
+  margin-left: 100%;
+}
+
+/* line 34, ../sass/mixins/_grid.scss */
+.col-offset-middle {
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 320px) {
-  /* line 9, ../sass/_layout.scss */
+  /* line 11, ../sass/_layout.scss */
   .media {
     width: 320px;
   }
 }
 @media screen and (min-width: 576px) {
-  /* line 9, ../sass/_layout.scss */
+  /* line 11, ../sass/_layout.scss */
   .media {
     width: 576px;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 9, ../sass/_layout.scss */
+  /* line 11, ../sass/_layout.scss */
   .media {
     width: 768px;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 9, ../sass/_layout.scss */
+  /* line 11, ../sass/_layout.scss */
   .media {
     width: 992px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 9, ../sass/_layout.scss */
+  /* line 11, ../sass/_layout.scss */
   .media {
     width: 1200px;
   }
 }
 
 @media screen and (min-width: 320px) {
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xs-1 {
     width: 8.33333%;
     position: relative;
@@ -518,7 +583,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xs-2 {
     width: 16.66667%;
     position: relative;
@@ -527,7 +592,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xs-3 {
     width: 25%;
     position: relative;
@@ -536,7 +601,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xs-4 {
     width: 33.33333%;
     position: relative;
@@ -545,7 +610,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xs-5 {
     width: 41.66667%;
     position: relative;
@@ -554,7 +619,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xs-6 {
     width: 50%;
     position: relative;
@@ -563,7 +628,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xs-7 {
     width: 58.33333%;
     position: relative;
@@ -572,7 +637,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xs-8 {
     width: 66.66667%;
     position: relative;
@@ -581,7 +646,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xs-9 {
     width: 75%;
     position: relative;
@@ -590,7 +655,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xs-10 {
     width: 83.33333%;
     position: relative;
@@ -599,7 +664,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xs-11 {
     width: 91.66667%;
     position: relative;
@@ -608,7 +673,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xs-12 {
     width: 100%;
     position: relative;
@@ -618,7 +683,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (min-width: 576px) {
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-sm-1 {
     width: 8.33333%;
     position: relative;
@@ -627,7 +692,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-sm-2 {
     width: 16.66667%;
     position: relative;
@@ -636,7 +701,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-sm-3 {
     width: 25%;
     position: relative;
@@ -645,7 +710,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-sm-4 {
     width: 33.33333%;
     position: relative;
@@ -654,7 +719,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-sm-5 {
     width: 41.66667%;
     position: relative;
@@ -663,7 +728,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-sm-6 {
     width: 50%;
     position: relative;
@@ -672,7 +737,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-sm-7 {
     width: 58.33333%;
     position: relative;
@@ -681,7 +746,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-sm-8 {
     width: 66.66667%;
     position: relative;
@@ -690,7 +755,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-sm-9 {
     width: 75%;
     position: relative;
@@ -699,7 +764,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-sm-10 {
     width: 83.33333%;
     position: relative;
@@ -708,7 +773,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-sm-11 {
     width: 91.66667%;
     position: relative;
@@ -717,7 +782,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-sm-12 {
     width: 100%;
     position: relative;
@@ -727,7 +792,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-md-1 {
     width: 8.33333%;
     position: relative;
@@ -736,7 +801,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-md-2 {
     width: 16.66667%;
     position: relative;
@@ -745,7 +810,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-md-3 {
     width: 25%;
     position: relative;
@@ -754,7 +819,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-md-4 {
     width: 33.33333%;
     position: relative;
@@ -763,7 +828,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-md-5 {
     width: 41.66667%;
     position: relative;
@@ -772,7 +837,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-md-6 {
     width: 50%;
     position: relative;
@@ -781,7 +846,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-md-7 {
     width: 58.33333%;
     position: relative;
@@ -790,7 +855,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-md-8 {
     width: 66.66667%;
     position: relative;
@@ -799,7 +864,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-md-9 {
     width: 75%;
     position: relative;
@@ -808,7 +873,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-md-10 {
     width: 83.33333%;
     position: relative;
@@ -817,7 +882,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-md-11 {
     width: 91.66667%;
     position: relative;
@@ -826,7 +891,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-md-12 {
     width: 100%;
     position: relative;
@@ -836,7 +901,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-lg-1 {
     width: 8.33333%;
     position: relative;
@@ -845,7 +910,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-lg-2 {
     width: 16.66667%;
     position: relative;
@@ -854,7 +919,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-lg-3 {
     width: 25%;
     position: relative;
@@ -863,7 +928,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-lg-4 {
     width: 33.33333%;
     position: relative;
@@ -872,7 +937,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-lg-5 {
     width: 41.66667%;
     position: relative;
@@ -881,7 +946,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-lg-6 {
     width: 50%;
     position: relative;
@@ -890,7 +955,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-lg-7 {
     width: 58.33333%;
     position: relative;
@@ -899,7 +964,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-lg-8 {
     width: 66.66667%;
     position: relative;
@@ -908,7 +973,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-lg-9 {
     width: 75%;
     position: relative;
@@ -917,7 +982,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-lg-10 {
     width: 83.33333%;
     position: relative;
@@ -926,7 +991,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-lg-11 {
     width: 91.66667%;
     position: relative;
@@ -935,7 +1000,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-lg-12 {
     width: 100%;
     position: relative;
@@ -945,7 +1010,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xl-1 {
     width: 8.33333%;
     position: relative;
@@ -954,7 +1019,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xl-2 {
     width: 16.66667%;
     position: relative;
@@ -963,7 +1028,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xl-3 {
     width: 25%;
     position: relative;
@@ -972,7 +1037,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xl-4 {
     width: 33.33333%;
     position: relative;
@@ -981,7 +1046,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xl-5 {
     width: 41.66667%;
     position: relative;
@@ -990,7 +1055,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xl-6 {
     width: 50%;
     position: relative;
@@ -999,7 +1064,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xl-7 {
     width: 58.33333%;
     position: relative;
@@ -1008,7 +1073,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xl-8 {
     width: 66.66667%;
     position: relative;
@@ -1017,7 +1082,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xl-9 {
     width: 75%;
     position: relative;
@@ -1026,7 +1091,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xl-10 {
     width: 83.33333%;
     position: relative;
@@ -1035,7 +1100,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xl-11 {
     width: 91.66667%;
     position: relative;
@@ -1044,7 +1109,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
   }
 
-  /* line 32, ../sass/mixins/_grid.scss */
+  /* line 42, ../sass/mixins/_grid.scss */
   .col-xl-12 {
     width: 100%;
     position: relative;
@@ -1059,7 +1124,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 4px 12px;
   text-align: center;
   vertical-align: middle;
-  line-height: 1.42858;
+  line-height: 20px;
   font-size: 14px;
   border: 2px solid transparent;
   border-radius: 4px;
@@ -1245,4 +1310,45 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .btn.ol-whites:hover, .btn.ol-whites:focus, .btn.ol-whites:active {
   color: #fff;
   background-color: #fff;
+}
+
+/* line 1, ../sass/_forms.scss */
+.form {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 5, ../sass/_forms.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 8, ../sass/_forms.scss */
+label {
+  display: inline-block;
+  font-weight: bold;
+  border: 2px solid transparent;
+}
+
+/* line 13, ../sass/_forms.scss */
+.form-input {
+  display: block;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+/* line 20, ../sass/_forms.scss */
+.form-input:focus {
+  border-color: #007bff;
+  outline: 0;
+}
+/* line 25, ../sass/_forms.scss */
+.form-input[disabled] {
+  cursor: not-allowed;
+}
+
+/* line 29, ../sass/_forms.scss */
+.form-label {
+  text-align: right;
 }

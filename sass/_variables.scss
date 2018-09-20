@@ -14,12 +14,22 @@ $colors: (
 $grid-breakpoints: (xs: 320px, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
 $grid-columns: 12;
 
-$line-height-base: 1.42858; //20 / 14
+$line-height-base: 20px; //20 / 14
 $font-size-base: 14px;
 $text-color: rgb(10, 9, 9);
+
 $btn-border-width: 2px;
 $btn-border-radius: 4px;
 $btn-font-size: $font-size-base;
 $btn-line-height: $line-height-base;
 $btn-text-color-base: map-get($colors, whites);
 $btn-bg-color-base: map-get($colors, dark);
+
+$input-bg-color:           #fff;
+$input-border-color:       #ddd;
+$input-border-color-focus:  map-get($colors, primary);
+$input-border-width:       2px;
+$input-border-radius:      4px;
+$input-text-color:         #333;
+$input-font-size:          $font-size-base;
+$input-line-height:        $line-height-base;

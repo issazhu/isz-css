@@ -6,6 +6,8 @@
 .row {
 }
 @include make-col();
+@include make-col-offset();
+
 .media {
   @include media-breakpoint($grid-breakpoints);
 }

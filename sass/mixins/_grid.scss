@@ -25,6 +25,16 @@
     }
   }
 }
+@mixin make-col-offset() {
+  @for $i from 1 through $grid-columns {
+    .col-offset-#{$i} {
+      margin-left:($i/$grid-columns)*100%;
+    }
+  }
+  .col-offset-middle{
+    margin:0 auto;
+  }
+}
 @mixin media-col($sizes) {
   @each $size, $px in $sizes {
     @media screen and (min-width: $px) {

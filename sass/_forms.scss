@@ -1,0 +1,31 @@
+.form{
+    font-size: $input-font-size;
+    line-height: $input-line-height;
+}
+textarea {
+  resize: vertical;
+}
+label {
+  display: inline-block;
+  font-weight: bold;
+  border: $input-border-width solid transparent;
+}
+.form-input {
+  display: block;
+  border: $input-border-width solid $input-border-color;
+  border-radius: $input-border-radius;
+  background-color: $input-bg-color;
+  color: $input-text-color;
+
+  &:focus {
+    border-color: $input-border-color-focus;
+    outline: 0;
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
+  }
+}
+.form-label {
+  text-align: right;
+}
