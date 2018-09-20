@@ -31,9 +31,6 @@
       margin-left:($i/$grid-columns)*100%;
     }
   }
-  .col-offset-middle{
-    margin:0 auto;
-  }
 }
 @mixin media-col($sizes) {
   @each $size, $px in $sizes {

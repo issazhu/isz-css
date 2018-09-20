@@ -4,6 +4,10 @@
   @include media-breakpoint-down($grid-breakpoints);
 }
 .row {
+  @include clearfix();
+}
+.clearfix{
+  @include clearfix();
 }
 @include make-col();
 @include make-col-offset();
